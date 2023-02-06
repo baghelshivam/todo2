@@ -12,7 +12,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://shivam-atlas:shivam2000@cluster0.d93zu.mongodb.net/todolistDB");
+mongoose.connect("mongodb+srv://shivam-atlas:uMfofCnDZs3eCMxB@cluster0.d93zu.mongodb.net/todolistDB");
 
 const taskSchema = {
   name: String
